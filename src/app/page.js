@@ -28,6 +28,7 @@ export default async function Page() {
   const experienceSection = data?.experienceSection || {};
   const workSection = data?.workSection || {};
   const contactSection = data?.contactSection || {};
+  const testSection = data?.testSection || {};
   
   const {
     heroTitle,
